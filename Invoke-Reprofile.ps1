@@ -52,6 +52,6 @@ Catch{ Write-Host $_.Exception.Message -ForegroundColor Red  }
     }
     End { 
     Write-Host "Completed Changing $UserName.old in Users Folder, Backup Registry to Windows Temp Folder, and Renamed Users SID in Registry ProfileList to SID.Old" -ForegroundColor Green     
-    Write-Host "Please have user login and copy their data from the $UUserName.old Folder" -ForegroundColor Green
+    Write-Host "Please have user login and copy their data from the $UserName.old Folder" -ForegroundColor Green
     }
 }
