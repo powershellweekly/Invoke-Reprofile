@@ -20,8 +20,6 @@
 function Invoke-ReProfile
 {
     [CmdletBinding()]
-    [Alias()]
-    [OutputType([int])]
     Param
     (
         [Parameter(Mandatory=$true,
